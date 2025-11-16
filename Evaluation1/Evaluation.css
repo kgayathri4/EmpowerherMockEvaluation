@@ -41,7 +41,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.1px;
-    width: 70%;
+    width: 80%;
     margin-left: 150px;
 }
 .box{
@@ -56,6 +56,10 @@
 .box img{
     height: 120px;
     width: 120px;
+}
+.box p{
+    color: white;
+    font-size: medium;
 }
 .viewAll{
     padding:10px;
@@ -72,25 +76,36 @@
     align-items: center;
     gap: 20px;
     text-align: center;
-    width: 60%;
+    width: 40%;
     height: auto;
     margin: 20px;
-    margin-left: 250px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 .box1{
     border: 1px solid lightgray;
     padding: 10px;
     width: 300px;
-    height: 370px;
+    height: 250px;
+}
+.box1 img{
+    width: 50px;
+    height: 100px;
 }
 
 .discover{
     color: orangered;
     margin-top: 1px;
 }
-h3{
+.box1 h3{
     font-size: 20px;
     font-weight: bold;
+    margin-top: 2px;
+}
+.box1 p{
+    font-size: 16px;
+    color: gray;
+    margin-top: none;
 }
 
 .container{
