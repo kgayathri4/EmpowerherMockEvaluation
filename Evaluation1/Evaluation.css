@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navbar{
     height: 70px;
     width: 90%;
@@ -17,7 +20,9 @@
     width: 90%;
     align-items: center;
     padding: 10px 0px;
-    color: rgb(74, 74, 253);
+}
+.inner p{
+    color: rgb(55, 55, 254);
 }
 .download{
     background-color: orangered;
@@ -27,11 +32,17 @@
     margin: 10px;
     padding: 10px;
 }
+.order-explore h3{
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
 .order{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 0.1px;
     width: 70%;
+    margin-left: 150px;
 }
 .box{
     background-color: orangered;
@@ -48,12 +59,80 @@
 }
 .viewAll{
     padding:10px;
+    background-color: white;
+    border: none;
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
 }
 .midsection{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
     align-items: center;
     gap: 20px;
     text-align: center;
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    margin-left: 250px;
+}
+.box1{
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 300px;
+    height: 370px;
+}
+
+.discover{
+    color: orangered;
+    margin-top: 1px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    padding: 40px;
+    margin: 50px;
+    height: 300px;
+}
+.phones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    margin: 100px;
+}
+.phones img{
+    height: 200px;
+    width: 300px; 
+}
+.innerconainer{
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(38, 38, 38);
+}
+.store{
+    display: flex;
+    gap: 20px;
+}
+.store img{
+    height: 60px;
+    width: 180px;
+    cursor: pointer;
 }
